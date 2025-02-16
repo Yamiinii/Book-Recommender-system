@@ -86,6 +86,16 @@ After cleaning the data, we will perform vector search and word embeddings to fi
 - Used for **creating Retrieval-Augmented Generation (RAG) pipelines** and chatbots.
 - **State-of-the-art AI capabilities** without being limited to a single LLM provider.
 
+### 10. Zero-Shot Text Classification for Book Categorization
+- Text classification is a branch of NLP that assigns text to categories.
+- Zero-shot classification can categorize books into different groups without labeled training 
+  data.
+- Using Hugging Face’s transformers library, we apply zero-shot learning to classify books by 
+  genre, topic, or audience.This step helps refine recommendations by filtering books based on   user preferences.
+  
+  ![image](https://github.com/user-attachments/assets/2b50e6f9-6cb3-41d4-bac0-23f4a8540e85)
+
+
 
 ---
 
