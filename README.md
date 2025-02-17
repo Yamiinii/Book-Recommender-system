@@ -95,6 +95,19 @@ After cleaning the data, we will perform vector search and word embeddings to fi
   
   ![image](https://github.com/user-attachments/assets/2b50e6f9-6cb3-41d4-bac0-23f4a8540e85)
 
+### 11. Sentiment Analysis for Enhanced Control
+- To provide users with an additional degree of control, we fine-tune our LLM to classify emotion.
+- We consider the **RoBERTa** model with its encoder layer.
+- Instead of predicting masked words, we replace the last layer with an emotion classification layer.
+- This helps categorize books based on emotional tone, improving recommendations.
+![image](https://github.com/user-attachments/assets/c242088c-ddd9-43a5-bec9-aa4c67cfa5ff)
+
+### 12. Summary Vector Database and Gradio Dashboard
+- We implement a **summary vector database** that allows us to retrieve the most similar texts based on queries.
+- Text classification is used to determine if a book is **fiction** or **non-fiction**.
+- After classification, we analyze the **emotional tone** of the book.
+- We create an interactive **Gradio dashboard**, an open-source Python package, to visualize and explore recommendations dynamically.
+
 
 
 ---
