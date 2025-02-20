@@ -1,0 +1,7 @@
+gradio
+fastapi
+uvicorn
+numpy
+pandas
+langchain
+sentence-transformers
