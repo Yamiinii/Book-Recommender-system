@@ -108,7 +108,7 @@ After cleaning the data, we will perform vector search and word embeddings to fi
 - After classification, we analyze the **emotional tone** of the book.
 - We create an interactive **Gradio dashboard**, an open-source Python package, to visualize and explore recommendations dynamically.
 
-
+Wrapped Gradio in FastAPI (required for Vercel).
 
 ---
 
