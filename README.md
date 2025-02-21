@@ -1,6 +1,6 @@
 # Book Recommender System
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/f8fa9edf-535c-44d5-bf69-b8bc78916577)
 
 ## Project Setup
 
