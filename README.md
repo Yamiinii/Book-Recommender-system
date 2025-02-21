@@ -1,5 +1,7 @@
 # Book Recommender System
 
+![Uploading image.png…]()
+
 ## Project Setup
 
 ### 1. Initialize the Project
